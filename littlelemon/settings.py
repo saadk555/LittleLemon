@@ -36,13 +36,11 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
     # The settings for app updated for the Graded assessment
     'restaurant',
     'rest_framework',
     'djoser',
     'rest_framework.authtoken',
-    ''
 ]
 
 MIDDLEWARE = [
@@ -134,7 +132,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 # The settings for static files have been updated for the Graded assessment
-STATIC_URL = 'restaurant/static/'
+#STATIC_URL = 'restaurant/static/'
 
 STATICFILES_DIRS = [
     "restaurant/static",
